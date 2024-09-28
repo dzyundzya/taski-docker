@@ -6,7 +6,7 @@ from .serializers import TaskSerializer
 
 
 class TaskView(viewsets.ModelViewSet):
-    """Модель"""
+
     serializer_class = TaskSerializer
     queryset = Task.objects.all()
 
